@@ -1,0 +1,224 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url();
+}
+
+/*header*/
+header{
+    position: relative;
+    width: 100%;
+}
+
+/*footer*/
+footer{
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+footer .footer-text{
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    height: 70px;
+    background:rgba(222, 223, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #4e4b4b;
+}
+footer .footer-text p{
+    font-size: 20px;
+    text-align: center;
+    color: #4e4b4b;
+}
+
+nav{  
+    background: rgb(222, 223, 182);  
+    float: left;  
+    width: 100%;  
+    height: 60px;  
+ }  
+ nav ul li{  
+    display: inline-block;  
+    margin: 5px;  
+ }  
+ nav ul li a{  
+    color: #4e4b4b;  
+    font-size: 17px;  
+    text-decoration: none;  
+    transition: .3s;  
+ }  
+ nav ul li a:hover{  
+    font-size: 25px;  
+    color: rgb(15, 15, 15);  
+ } 
+ #seccion1 { 
+    width: 65%; 
+    border: 2px solid #534c4c; 
+    border-radius: 5px; 
+    font-size: 1.2 em; 
+    text-align: justify; 
+    padding: 10px; 
+    background-color: rgb(238, 243, 211);
+} 
+#seccion1, #menu_redes
+ { 
+    display: inline-block; 
+    margin: 5px  0px 0px; 
+    vertical-align: top; 
+     }
+     aside li {
+        text-align: left; /* Alinea el texto a la izquierda */
+        margin: 10px 0; /* Espacio entre las viñetas */
+    }
+#OBJ { 
+        width: 65%; 
+        border: 2px solid #534c4c; 
+        border-radius: 5px; 
+        font-size: 1.2 em; 
+        text-align: justify; 
+        padding: 10px; 
+        background-color: rgb(238, 243, 211);
+    } 
+
+#JUST { 
+            width: 65%; 
+            border: 2px solid #534c4c; 
+            border-radius: 5px; 
+            font-size: 1.2 em; 
+            text-align: justify; 
+            padding: 10px; 
+            background-color: rgb(238, 243, 211);
+        } 
+
+#MARC { 
+                width: 65%; 
+                border: 2px solid #534c4c; 
+                border-radius: 5px; 
+                font-size: 1.2 em; 
+                text-align: justify; 
+                padding: 10px; 
+                background-color: rgb(238, 243, 211);
+            } 
+
+ #COMPT { 
+                    width: 65%; 
+                    border: 2px solid #534c4c; 
+                    border-radius: 5px; 
+                    font-size: 1.2 em; 
+                    text-align: justify; 
+                    padding: 10px; 
+                    background-color: rgb(238, 243, 211);
+                } 
+
+                  
+#DISCP { 
+                    width: 65%; 
+                    border: 2px solid #534c4c; 
+                    border-radius: 5px; 
+                    font-size: 1.2 em; 
+                    text-align: justify; 
+                    padding: 10px; 
+                    background-color: rgb(238, 243, 211);
+                } 
+#situacionproblema { 
+                    width: 65%; 
+                    border: 2px solid #534c4c; 
+                    border-radius: 5px; 
+                    font-size: 1.2 em; 
+                    text-align: justify; 
+                    padding: 10px; 
+                    background-color: rgb(238, 243, 211);
+                } 
+
+/* Botón */
+button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #3a74c2;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #tabla-contenidos, section {
+        margin: 10px;
+        padding: 15px;
+    }
+}
+
+
+.DefProyecto {
+    font-size: 1.35em;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Tabla de contenidos */
+#tabla-contenidos {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#tabla-contenidos h2 {
+    color: #4a90e2;
+}
+
+#tabla-contenidos ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#tabla-contenidos ul li {
+    margin: 8px 0;
+}
+
+#tabla-contenidos ul li a {
+    text-decoration: none;
+    color: #4a90e2;
+}
+
+
+.Titulo1 {
+    color: #3a743d;
+}
+
+/* Subcapítulos */
+.SubCapituloTema {
+    background-color: #d9e2f0;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Subtitulo1 {
+    color: #365c91;
+}
+
+.Subtitulo2 {
+    color: #b26a3c;
+}
+
+/* Párrafos */
+.Parrafo1 {
+    font-size: 1.15em;
+}
+
+.Parrafo2 {
+    font-size: 1.15em;
+    font-style: italic;
+}
